@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "820121008706",
+    "project_id": "saathi-71918",
+    "storage_bucket": "saathi-71918.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820121008706:android:87e35ac73240e01ab04bdb",
+        "android_client_info": {
+          "package_name": "com.saathi.safety"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFjvQcNAuU_n8Lw8qiabS90q8QAPI301I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

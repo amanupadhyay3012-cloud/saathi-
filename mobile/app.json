@@ -1,0 +1,85 @@
+{
+  "expo": {
+    "name": "SAATHI",
+    "slug": "saathi-safety",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#7C5CBF"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.saathi.safety",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "SAATHI needs your location to send emergency alerts to trusted contacts.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "SAATHI shares your live location with your circle during an active trip or SOS, even when your screen is off. It never shares your location at other times.",
+        "UIBackgroundModes": [
+          "location",
+          "location"
+        ]
+      }
+    },
+    "android": {
+      "package": "com.saathi.safety",
+      "googleServicesFile": "./google-services.json",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION",
+        "FOREGROUND_SERVICE",
+        "FOREGROUND_SERVICE_LOCATION",
+        "RECORD_AUDIO",
+        "CALL_PHONE",
+        "SEND_SMS",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_BACKGROUND_LOCATION",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.FOREGROUND_SERVICE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION",
+        "FOREGROUND_SERVICE",
+        "FOREGROUND_SERVICE_LOCATION",
+        "RECORD_AUDIO",
+        "CALL_PHONE",
+        "SEND_SMS",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_BACKGROUND_LOCATION",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.FOREGROUND_SERVICE_LOCATION"
+      ]
+    },
+    "plugins": [
+      "expo-secure-store",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "SAATHI needs your location to send emergency alerts and share it with your circle.",
+          "locationAlwaysAndWhenInUsePermission": "SAATHI shares your live location with your circle during an active trip or SOS, even when your screen is off. It never shares your location at other times.",
+          "isAndroidBackgroundLocationEnabled": true,
+          "isAndroidForegroundServiceEnabled": true,
+          "isIosBackgroundLocationEnabled": true
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "37747117-8486-4cf4-b0ba-9534ae62856e"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/37747117-8486-4cf4-b0ba-9534ae62856e"
+    }
+  }
+}
