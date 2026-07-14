@@ -1,5 +1,27 @@
-# SAATHI — Women Safety App
+# SAATHI
 
+**A privacy-first personal safety app.**
+
+Most safety and family-tracking apps share your location continuously. SAATHI doesn't. Your location is shared with your circle only during an active trip or an SOS — and never at any other time.
+
+📹 **Demo video:** coming soon
+
+## What it does
+
+- **Emergency SOS** — hold to trigger; automatically alerts every trusted contact via SMS and WhatsApp with a live location link. Works even if your contacts don't have the app.
+- **Family Circles** — create a circle, share a 6-character code, and let family see you only while you're travelling or in trouble.
+- **Safe Trip** — set a destination and a check-in timer; your location streams live and keeps updating even when your screen is off.
+- **Nearby Help** — find police, hospitals, pharmacies and helplines around you.
+- **Evidence** — record audio during an incident.
+- **Extras** — fake call, siren alarm, safety guide, medical card, tourist mode.
+
+## Built with
+
+- **Mobile:** React Native (Expo SDK 54), Expo Location + Task Manager (background tracking), Secure Store, EAS Build & Update
+- **Backend:** Node.js, Express, PostgreSQL, Socket.IO, JWT auth, Twilio (SMS/WhatsApp)
+- **Infra:** Render (API + managed Postgres)
+
+> ⚠️ **Status:** in development. Safety-critical features are still being verified on real devices. Not yet suitable for real-world emergency reliance.
 A complete personal safety companion app with React Native (Expo) frontend and Node.js backend.
 
 ---
